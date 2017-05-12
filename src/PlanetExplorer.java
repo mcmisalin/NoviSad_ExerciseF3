@@ -63,6 +63,7 @@ public class PlanetExplorer {
 				case 'f':
 					this.pos_x++;
 					this.getPosition();
+					break;
 				case 'b':
 					this.pos_x--;
 					this.getPosition();
