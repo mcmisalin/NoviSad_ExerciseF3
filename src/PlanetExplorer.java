@@ -84,10 +84,10 @@ public class PlanetExplorer {
 				}
 			}else if(smer=='W'){
 				switch(kretanja[j]){
-				case 'f':
+				case 'b':
 					this.pos_y++;
 					break;
-				case 'b':
+				case 'f':
 					if(this.pos_y==0){
 						this.pos_y=this.gridY-1;
 						break;
