@@ -4,8 +4,8 @@
 // Student ID: it3-2015
 
 public class PlanetExplorer {
-	private int pos_x;
-	private int pos_y;
+	private int gridX;
+	private int gridY;
 	private String obstacles;
 	
 	

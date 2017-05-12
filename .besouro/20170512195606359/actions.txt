@@ -12,3 +12,12 @@ RefactoringAction 1494612733047 PlanetExplorer.java RENAME ob=>String obstacles 
 RefactoringAction 1494612734072 PlanetExplorer.java RENAME obstacles=>String obstacle FIELD
 RefactoringAction 1494612735607 PlanetExplorer.java RENAME obstacle=>String obstacles FIELD
 EditAction 1494612859230 PlanetExplorer.java 1676 2 3 0
+CompilationAction 1494612862203 PlanetExplorer.java
+CompilationAction 1494612862209 PlanetExplorer.java
+CompilationAction 1494612862212 PlanetExplorer.java
+CompilationAction 1494612862213 PlanetExplorer.java
+CompilationAction 1494612862213 PlanetExplorer.java
+RefactoringAction 1494612869873 PlanetExplorer.java RENAME pos_x=>int grid FIELD
+RefactoringAction 1494612870908 PlanetExplorer.java RENAME grid=>int gridX FIELD
+RefactoringAction 1494612876521 PlanetExplorer.java RENAME pos_y=>int gridY FIELD
+EditAction 1494612876561 PlanetExplorer.java 1676 2 3 0
