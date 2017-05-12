@@ -66,6 +66,7 @@ public class PlanetExplorer {
 				case 'b':
 					if(this.pos_x==0){
 						this.pos_x=this.gridX-1;
+						break;
 					}
 					this.pos_x--;
 					break;
