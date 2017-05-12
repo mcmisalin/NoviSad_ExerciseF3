@@ -63,6 +63,10 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	public String getPosition(){
+		return "("+this.pos_x+","+this.pos_y+")";
+	}
 
 	public int getGridX() {
 		return gridX;

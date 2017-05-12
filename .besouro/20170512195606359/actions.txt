@@ -58,3 +58,5 @@ EditAction 1494613380176 TestPlanetExplorer.java 190 1 1 0
 RefactoringAction 1494613425844 PlanetExplorer.java ADD String position FIELD
 RefactoringAction 1494613428898 PlanetExplorer.java REMOVE position FIELD
 EditAction 1494613429330 PlanetExplorer.java 2352 10 16 0
+RefactoringAction 1494613448123 PlanetExplorer.java ADD String getPosition() METHOD
+EditAction 1494613499567 PlanetExplorer.java 2431 11 17 0
