@@ -8,8 +8,8 @@ public class PlanetExplorer {
 	private int gridY;
 	private String obstacles;
 	private char smer;
-	private int pos_x=0;
-	private int pos_y=0;
+	private int pos_x;
+	private int pos_y;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -54,9 +54,6 @@ public class PlanetExplorer {
 		}*/
 		
 		char [] kretanja = command.toCharArray();
-		for (int i = 0; i < kretanja.length; i++) {
-			System.out.println(kretanja[i]);
-		}
 		
 		for (int j = 0; j < kretanja.length; j++) {
 			if(smer=='N'){
@@ -117,4 +114,17 @@ public class PlanetExplorer {
 	public void setSmer(char smer) {
 		this.smer = smer;
 	}
+	public int getPos_x() {
+		return pos_x;
+	}
+	public void setPos_x(int pos_x) {
+		this.pos_x = pos_x;
+	}
+	public int getPos_y() {
+		return pos_y;
+	}
+	public void setPos_y(int pos_y) {
+		this.pos_y = pos_y;
+	}
+	
 }

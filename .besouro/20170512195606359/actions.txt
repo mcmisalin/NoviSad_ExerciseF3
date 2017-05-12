@@ -156,3 +156,18 @@ RefactoringAction 1494614877530 PlanetExplorer.java ADD int pos_x FIELD
 RefactoringAction 1494614960358 PlanetExplorer.java RENAME PlanetExplorer(int, int, String, char)=>PlanetExplorer(int, int, String, char, int) METHOD
 RefactoringAction 1494614963941 PlanetExplorer.java RENAME PlanetExplorer(int, int, String, char, int)=>PlanetExplorer(int, int, String, char, int, int) METHOD
 EditAction 1494614988167 PlanetExplorer.java 2814 12 22 0
+CompilationAction 1494614991985 TestPlanetExplorer.java
+CompilationAction 1494614998730 TestPlanetExplorer.java
+CompilationAction 1494614999079 TestPlanetExplorer.java
+CompilationAction 1494615004640 TestPlanetExplorer.java
+UnitTestCaseAction 1494615016679 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615016684 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615033131 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615033133 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615076695 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615076698 TestPlanetExplorer.java FAIL
+RefactoringAction 1494615281297 PlanetExplorer.java ADD int getPos_x() METHOD
+RefactoringAction 1494615281307 PlanetExplorer.java ADD void setPos_x(int) METHOD
+RefactoringAction 1494615281310 PlanetExplorer.java ADD int getPos_y() METHOD
+RefactoringAction 1494615281311 PlanetExplorer.java ADD void setPos_y(int) METHOD
+EditAction 1494615330761 PlanetExplorer.java 2934 16 25 0
