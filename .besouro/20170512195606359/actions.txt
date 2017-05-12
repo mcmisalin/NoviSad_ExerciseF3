@@ -147,3 +147,12 @@ EditAction 1494614724769 PlanetExplorer.java 2796 12 20 0
 UnitTestCaseAction 1494614739778 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614739784 TestPlanetExplorer.java FAIL
 EditAction 1494614750038 PlanetExplorer.java 2756 12 20 0
+UnitTestCaseAction 1494614763012 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614763014 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494614827676 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614827679 TestPlanetExplorer.java FAIL
+RefactoringAction 1494614876481 PlanetExplorer.java REMOVE pos_x FIELD
+RefactoringAction 1494614877530 PlanetExplorer.java ADD int pos_x FIELD
+RefactoringAction 1494614960358 PlanetExplorer.java RENAME PlanetExplorer(int, int, String, char)=>PlanetExplorer(int, int, String, char, int) METHOD
+RefactoringAction 1494614963941 PlanetExplorer.java RENAME PlanetExplorer(int, int, String, char, int)=>PlanetExplorer(int, int, String, char, int, int) METHOD
+EditAction 1494614988167 PlanetExplorer.java 2814 12 22 0
