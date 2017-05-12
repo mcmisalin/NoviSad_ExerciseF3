@@ -78,7 +78,7 @@ public class PlanetExplorer {
 		return this.getPosition();
 	}
 	
-	public int getPosition(){
+	public String getPosition(){
 		//return "("+this.pos_x+","+this.pos_y+")";
 		return this.pos_x;
 	}
