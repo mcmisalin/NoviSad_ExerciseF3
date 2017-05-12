@@ -240,3 +240,22 @@ UnitTestSessionAction 1494616099076 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1494616121596 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494616121598 TestPlanetExplorer.java FAIL
 EditAction 1494616187163 PlanetExplorer.java 3604 16 25 0
+UnitTestCaseAction 1494616191398 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616191400 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616220621 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616220622 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616246698 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616246700 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616252996 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616252998 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616271927 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616271928 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616282047 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616282048 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616287950 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616287952 TestPlanetExplorer.java OK
+RefactoringAction 1494616296833 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNapred()=>void testDaLiRadiOsnovnoNapredN() METHOD
+RefactoringAction 1494616298858 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNazad()=>void testDaLiRadiOsnovnoNazadN() METHOD
+UnitTestCaseAction 1494616301011 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616301012 TestPlanetExplorer.testDaLiRadiOsnovnoNazadN OK
+EditAction 1494616336807 PlanetExplorer.java 3620 16 25 0
