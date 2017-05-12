@@ -72,7 +72,6 @@ public class PlanetExplorer {
 			
 		}
 		
-		//PlanetExplorer pe = new PlanetExplorer(10,10, "f");
 		
 		return this.getPosition();
 	}
