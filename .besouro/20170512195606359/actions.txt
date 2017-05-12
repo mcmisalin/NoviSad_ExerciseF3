@@ -43,3 +43,12 @@ RefactoringAction 1494613103048 PlanetExplorer.java ADD void setSmer(char) METHO
 EditAction 1494613105335 PlanetExplorer.java 2156 10 16 0
 EditAction 1494613165970 PlanetExplorer.java 2253 10 16 0
 EditAction 1494613250296 PlanetExplorer.java 2293 10 16 0
+CompilationAction 1494613254378 PlanetExplorer.java
+CompilationAction 1494613254381 PlanetExplorer.java
+CompilationAction 1494613254384 PlanetExplorer.java
+RefactoringAction 1494613255238 PlanetExplorer.java ADD int pos_x FIELD
+RefactoringAction 1494613257800 PlanetExplorer.java ADD int pos_y FIELD
+CompilationAction 1494613258183 PlanetExplorer.java
+CompilationAction 1494613258185 PlanetExplorer.java
+CompilationAction 1494613258186 PlanetExplorer.java
+EditAction 1494613318594 PlanetExplorer.java 2352 10 16 0

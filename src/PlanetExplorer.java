@@ -8,8 +8,8 @@ public class PlanetExplorer {
 	private int gridY;
 	private String obstacles;
 	private char smer;
-	private pos_x=0;
-	private pos_y=0;
+	private int pos_x=0;
+	private int pos_y=0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -50,8 +50,11 @@ public class PlanetExplorer {
 			if(smer=='N'){
 				switch(kretanja[j]){
 				case 'f':
-					
+					this.pos_x++;
+				case 'b':
+					this.pos_x--;
 				}
+				
 			}
 			
 		}
