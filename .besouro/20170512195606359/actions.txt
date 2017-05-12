@@ -171,3 +171,8 @@ RefactoringAction 1494615281307 PlanetExplorer.java ADD void setPos_x(int) METHO
 RefactoringAction 1494615281310 PlanetExplorer.java ADD int getPos_y() METHOD
 RefactoringAction 1494615281311 PlanetExplorer.java ADD void setPos_y(int) METHOD
 EditAction 1494615330761 PlanetExplorer.java 2934 16 25 0
+UnitTestCaseAction 1494615336199 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615336201 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615353255 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615353261 TestPlanetExplorer.java OK
+EditAction 1494615389979 PlanetExplorer.java 2958 16 25 0

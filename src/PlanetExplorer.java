@@ -69,6 +69,7 @@ public class PlanetExplorer {
 					this.pos_x--;
 					break;
 				}
+			}else if(smer=='F'){
 				
 			}
 			
