@@ -8,6 +8,6 @@ public class TestPlanetExplorer {
 	public void testDaLiRadi() {
 		PlanetExplorer pe = new PlanetExplorer(10, 10, "",'N');
 		pe.executeCommand("f");
-		assertEquals(1,pe.executeCommand("f"));
+		assertEquals(" 1",pe.executeCommand("f"));
 	}
 }
