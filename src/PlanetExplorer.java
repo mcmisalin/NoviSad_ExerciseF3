@@ -8,8 +8,8 @@ public class PlanetExplorer {
 	private int gridY;
 	private String obstacles;
 	private char smer;
-	private int pos_x=0;
-	private int pos_y=0;
+	private int pos_x=-1;
+	private int pos_y=-1;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -64,6 +64,9 @@ public class PlanetExplorer {
 					this.pos_x++;
 					break;
 				case 'b':
+					if(this.pos_x==0){
+						this.pos_x=this.gridX-1;
+					}
 					this.pos_x--;
 					break;
 				}
