@@ -52,7 +52,7 @@ public class PlanetExplorer {
 		}*/
 		
 		char [] kretanja = command.toCharArray();
-		for (int i = 0; i < kretanja.length-1; i++) {
+		for (int i = 0; i < kretanja.length; i++) {
 			System.out.println(kretanja[i]);
 		}
 		
