@@ -259,3 +259,4 @@ RefactoringAction 1494616298858 TestPlanetExplorer.java RENAME testDaLiRadiOsnov
 UnitTestCaseAction 1494616301011 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494616301012 TestPlanetExplorer.testDaLiRadiOsnovnoNazadN OK
 EditAction 1494616336807 PlanetExplorer.java 3620 16 25 0
+EditAction 1494616362621 PlanetExplorer.java 3624 16 25 0

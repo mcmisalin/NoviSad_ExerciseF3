@@ -118,7 +118,7 @@ public class PlanetExplorer {
 	
 	public String getPosition(){
 		//return "("+this.pos_x+","+this.pos_y+")";
-		return "("+this.pos_x+", "+this.pos_y+", "+this.smer;
+		return "("+this.pos_x+", "+this.pos_y+", "+this.smer+")";
 	}
 
 	public int getGridX() {
