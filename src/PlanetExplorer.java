@@ -69,8 +69,19 @@ public class PlanetExplorer {
 					this.pos_x--;
 					break;
 				}
-			}else if(smer=='F'){
-				
+			}else if(smer=='E'){
+				switch(kretanja[j]){
+				case 'b':
+					this.pos_x++;
+					break;
+				case 'f':
+					if(this.pos_x==0){
+						this.pos_x=this.gridX-1;
+						break;
+					}
+					this.pos_x--;
+					break;
+				}
 			}
 			
 		}
