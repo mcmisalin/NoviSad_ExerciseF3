@@ -221,3 +221,22 @@ UnitTestSessionAction 1494615899638 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1494615906212 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494615906213 TestPlanetExplorer.java OK
 EditAction 1494615935215 PlanetExplorer.java 3604 16 25 0
+RefactoringAction 1494615944533 TestPlanetExplorer.java ADD void testDaLiRadiOsnovnoNazadW()/2 METHOD
+RefactoringAction 1494615944538 TestPlanetExplorer.java ADD void testDaLiRadiOsnovnoNapredW()/2 METHOD
+RefactoringAction 1494615952153 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNapredE()=>void testDaLiRadiOsnovnoNapredS() METHOD
+RefactoringAction 1494615953188 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNazadE()=>void testDaLiRadiOsnovnoNazadS() METHOD
+RefactoringAction 1494615954721 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNazadW()/2=>void testDaLiRadiOsnovnoNazadE() METHOD
+RefactoringAction 1494615956259 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNapredW()/2=>void testDaLiRadiOsnovnoNapredE() METHOD
+UnitTestCaseAction 1494615968888 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615968889 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494615980564 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615980565 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616001409 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616001411 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616013780 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616013782 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616099074 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616099076 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616121596 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616121598 TestPlanetExplorer.java FAIL
+EditAction 1494616187163 PlanetExplorer.java 3604 16 25 0

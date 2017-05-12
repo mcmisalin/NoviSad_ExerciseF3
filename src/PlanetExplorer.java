@@ -69,7 +69,7 @@ public class PlanetExplorer {
 					this.pos_x--;
 					break;
 				}
-			}else if(smer=='E'){
+			}else if(smer=='S'){
 				switch(kretanja[j]){
 				case 'b':
 					this.pos_x++;
