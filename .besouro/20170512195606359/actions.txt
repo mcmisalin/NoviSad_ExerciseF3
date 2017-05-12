@@ -2,3 +2,13 @@ FileOpenedAction 1494611767018 PlanetExplorer.java 1245 2 1 0
 FileOpenedAction 1494612170292 PlanetExplorerException.java 61 0 0 0
 EditAction 1494612460664 PlanetExplorer.java 1438 2 3 0
 EditAction 1494612620140 PlanetExplorer.java 1389 2 3 0
+CompilationAction 1494612623543 PlanetExplorer.java
+CompilationAction 1494612632276 PlanetExplorer.java
+RefactoringAction 1494612690348 PlanetExplorer.java ADD int pos_x FIELD
+RefactoringAction 1494612692395 PlanetExplorer.java ADD int pos_ FIELD
+RefactoringAction 1494612693928 PlanetExplorer.java RENAME pos_=>int pos_y FIELD
+RefactoringAction 1494612731012 PlanetExplorer.java ADD String ob FIELD
+RefactoringAction 1494612733047 PlanetExplorer.java RENAME ob=>String obstacles FIELD
+RefactoringAction 1494612734072 PlanetExplorer.java RENAME obstacles=>String obstacle FIELD
+RefactoringAction 1494612735607 PlanetExplorer.java RENAME obstacle=>String obstacles FIELD
+EditAction 1494612859230 PlanetExplorer.java 1676 2 3 0
