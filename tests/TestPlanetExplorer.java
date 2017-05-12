@@ -35,7 +35,13 @@ public class TestPlanetExplorer {
 	@Test
 	public void testDaLiRadiOsnovnoNazadW() {
 		PlanetExplorer pe = new PlanetExplorer(10, 10, "",'W',0,-1);
+		pe.executeCommand("b");
+		assertEquals(" 0 1", pe.executeCommand("b"));
+	}
+	@Test
+	public void testDaLiRadiOsnovnoNapredW() {
+		PlanetExplorer pe = new PlanetExplorer(10, 10, "",'W',0,1);
 		pe.executeCommand("f");
-		assertEquals(" 0 1", pe.executeCommand("f"));
+		assertEquals(" 0 9", pe.executeCommand("f"));
 	}
 }
