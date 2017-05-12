@@ -14,9 +14,7 @@ public class PlanetExplorer {
 	 */
 		
 		String [] niz_prepreka = obstacles.split(",");
-		for (int i = 0; i < niz_prepreka.length; i++) {
-			System.out.println(niz_prepreka[i]);
-		}
+		
 		
 		
 	}
@@ -36,8 +34,7 @@ public class PlanetExplorer {
 		 *  of the encountered obstacles. No white spaces.
 		 */
 		
-		
-		
+		String [] kretanja = command.toCharArray();		
 		
 		
 		return null;
