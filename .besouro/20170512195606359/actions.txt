@@ -260,3 +260,13 @@ UnitTestCaseAction 1494616301011 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494616301012 TestPlanetExplorer.testDaLiRadiOsnovnoNazadN OK
 EditAction 1494616336807 PlanetExplorer.java 3620 16 25 0
 EditAction 1494616362621 PlanetExplorer.java 3624 16 25 0
+UnitTestCaseAction 1494616372215 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616372217 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616427313 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616427316 TestPlanetExplorer.java OK
+RefactoringAction 1494616447127 TestPlanetExplorer.java ADD void testDaLiRadiOsnovnoNapredE()/2 METHOD
+RefactoringAction 1494616452161 TestPlanetExplorer.java RENAME testDaLiRadiOsnovnoNapredE()/2=>void testDaLiRadiVise() METHOD
+UnitTestCaseAction 1494616462962 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616462965 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1494616472317 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616472319 TestPlanetExplorer.java OK
