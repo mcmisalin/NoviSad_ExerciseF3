@@ -46,12 +46,15 @@ public class PlanetExplorer {
 		 *  of the encountered obstacles. No white spaces.
 		 */
 		
-		String [] niz_prepreka = obstacles.split(",");
+		/*String [] niz_prepreka = obstacles.split(",");
 		for (int i = 0; i < niz_prepreka.length; i++) {
 			System.out.println(niz_prepreka[i]);
-		}
+		}*/
 		
-		char [] kretanja = command.toCharArray();	
+		char [] kretanja = command.toCharArray();
+		for (int i = 0; i < kretanja.length; i++) {
+			System.out.println(kretanja[j]);
+		}
 		
 		for (int j = 0; j < kretanja.length; j++) {
 			if(smer=='N'){
