@@ -21,3 +21,23 @@ RefactoringAction 1494612869873 PlanetExplorer.java RENAME pos_x=>int grid FIELD
 RefactoringAction 1494612870908 PlanetExplorer.java RENAME grid=>int gridX FIELD
 RefactoringAction 1494612876521 PlanetExplorer.java RENAME pos_y=>int gridY FIELD
 EditAction 1494612876561 PlanetExplorer.java 1676 2 3 0
+CompilationAction 1494612879729 PlanetExplorer.java
+CompilationAction 1494612879730 PlanetExplorer.java
+CompilationAction 1494612879731 PlanetExplorer.java
+CompilationAction 1494612934039 PlanetExplorer.java
+CompilationAction 1494612934041 PlanetExplorer.java
+CompilationAction 1494612934042 PlanetExplorer.java
+RefactoringAction 1494613007861 PlanetExplorer.java ADD char NORTH FIELD
+RefactoringAction 1494613011943 PlanetExplorer.java REMOVE NORTH FIELD
+RefactoringAction 1494613013494 PlanetExplorer.java ADD char smer FIELD
+CompilationAction 1494613056886 PlanetExplorer.java
+CompilationAction 1494613066895 PlanetExplorer.java
+RefactoringAction 1494613103024 PlanetExplorer.java ADD int getGridX() METHOD
+RefactoringAction 1494613103026 PlanetExplorer.java ADD void setGridX(int) METHOD
+RefactoringAction 1494613103028 PlanetExplorer.java ADD int getGridY() METHOD
+RefactoringAction 1494613103029 PlanetExplorer.java ADD void setGridY(int) METHOD
+RefactoringAction 1494613103032 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1494613103034 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1494613103047 PlanetExplorer.java ADD char getSmer() METHOD
+RefactoringAction 1494613103048 PlanetExplorer.java ADD void setSmer(char) METHOD
+EditAction 1494613105335 PlanetExplorer.java 2156 10 16 0

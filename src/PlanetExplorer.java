@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	private int gridX;
 	private int gridY;
 	private String obstacles;
-	
+	private char smer;
 	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -21,11 +21,6 @@ public class PlanetExplorer {
 		this.gridX=x;
 		this.gridY=y;
 		this.obstacles=obstacles;
-		
-		
-		
-		
-		
 		
 	}
 	
@@ -48,10 +43,46 @@ public class PlanetExplorer {
 		for (int i = 0; i < niz_prepreka.length; i++) {
 			System.out.println(niz_prepreka[i]);
 		}
-		char [] kretanja = command.toCharArray();		
+		char [] kretanja = command.toCharArray();	
 		
-		PlanetExplorer pe = new PlanetExplorer(x, y, command)
+		if(smer=='N'){
+			
+		}
+		
+		//PlanetExplorer pe = new PlanetExplorer(10,10, "f");
 		
 		return null;
+	}
+
+	public int getGridX() {
+		return gridX;
+	}
+
+	public void setGridX(int gridX) {
+		this.gridX = gridX;
+	}
+
+	public int getGridY() {
+		return gridY;
+	}
+
+	public void setGridY(int gridY) {
+		this.gridY = gridY;
+	}
+
+	public String getObstacles() {
+		return obstacles;
+	}
+
+	public void setObstacles(String obstacles) {
+		this.obstacles = obstacles;
+	}
+
+	public char getSmer() {
+		return smer;
+	}
+
+	public void setSmer(char smer) {
+		this.smer = smer;
 	}
 }
