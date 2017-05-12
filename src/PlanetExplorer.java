@@ -45,7 +45,12 @@ public class PlanetExplorer {
 		}
 		char [] kretanja = command.toCharArray();	
 		
-		if(smer=='N'){
+		for (int j = 0; j < kretanja.length; j++) {
+			if(smer=='N'){
+				switch(kretanja[j]){
+				case 'f':
+				}
+			}
 			
 		}
 		
