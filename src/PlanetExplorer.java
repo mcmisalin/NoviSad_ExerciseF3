@@ -62,7 +62,7 @@ public class PlanetExplorer {
 				switch(kretanja[j]){
 				case 'f':
 					this.pos_x++;
-					this.getPosition();
+					
 					break;
 				case 'b':
 					this.pos_x--;
@@ -75,10 +75,10 @@ public class PlanetExplorer {
 		
 		//PlanetExplorer pe = new PlanetExplorer(10,10, "f");
 		
-		return null;
+		return this.getPosition();
 	}
 	
-	public String getPosition(){
+	public int getPosition(){
 		//return "("+this.pos_x+","+this.pos_y+")";
 		return this.pos_x;
 	}
