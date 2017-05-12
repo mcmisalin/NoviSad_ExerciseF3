@@ -62,11 +62,10 @@ public class PlanetExplorer {
 				switch(kretanja[j]){
 				case 'f':
 					this.pos_x++;
-					
 					break;
 				case 'b':
 					this.pos_x--;
-					this.getPosition();
+					break;
 				}
 				
 			}
