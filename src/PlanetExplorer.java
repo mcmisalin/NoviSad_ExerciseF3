@@ -24,6 +24,12 @@ public class PlanetExplorer {
 		this.obstacles=obstacles;
 		
 	}
+	public PlanetExplorer(int x, int y, String obstacles,char smer){
+		this.gridX=x;
+		this.gridY=y;
+		this.obstacles=obstacles;
+		this.smer=smer;
+	}
 	
 	public String executeCommand(String command){
 		
@@ -44,6 +50,7 @@ public class PlanetExplorer {
 		for (int i = 0; i < niz_prepreka.length; i++) {
 			System.out.println(niz_prepreka[i]);
 		}
+		
 		char [] kretanja = command.toCharArray();	
 		
 		for (int j = 0; j < kretanja.length; j++) {
